@@ -7,10 +7,10 @@
      ],
      "resourceSets": [
          {
-             "pathRegex" : "/messages/en/(?<path>.*)\\.stringsdict",
+             "pathRegex" : "/messages/en/(?<path>.*)\\.strings",
              "translationPathExpression" : "/messages/ua/${path}_${locale}.${originalFile.extension}",
              "translationCommitMessage" : "Task TRN-18 translate ${originalFile.name} to ${locale}\n${translatedFile.fullName}",
-             "type" : "stringsdict",
+             "type" : "ios",
              "authorizeContent" : true
          }
      ]
