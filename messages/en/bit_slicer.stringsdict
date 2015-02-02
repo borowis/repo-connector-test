@@ -2,24 +2,23 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>loggedMessagesFormat</key>
-	<dict>
-		<key>NSStringLocalizedFormatKey</key>
-		<string>Logged %#@messages_logged@</string>
-		<key>messages_logged</key>
+		<key>loggedMessagesFormat</key>
 		<dict>
-			<key>NSStringFormatSpecTypeKey</key>
-			<string>NSStringPluralRuleType</string>
-			<key>NSStringFormatValueTypeKey</key>
-			<string>lu</string>
-			<key>zero</key>
-			<string>No messages</string>
-			<key>one</key>
-			<string>%lu message</string>
-			<key>other</key>
-			<string>%lu messages</string>
+			<key>NSStringLocalizedFormatKey</key>
+			<string>Logged %#@messages_logged@</string>
+			<key>messages_logged</key>
+			<dict>
+				<key>NSStringFormatSpecTypeKey</key>
+				<string>NSStringPluralRuleType</string>
+				<key>NSStringFormatValueTypeKey</key>
+				<string>lu</string>
+				<key>zero</key>
+				<string>No messages</string>
+				<key>one</key>
+				<string>%lu message</string>
+				<key>other</key>
+				<string>%lu messages</string>
+			</dict>	
 		</dict>
-	
-	</dict>
 </dict>
 </plist>
